@@ -23,16 +23,16 @@ function merge(&$nums1, $m, $nums2, $n) {
 }
 
 // Example 1
-$nums1 = [1,2,3,0,0,0];
-$m = 3;
+$nums1 = [1,2,3,7,0,0,0];
+$m = 4;
 $nums2 = [2,5,6];
 $n = 3;
 merge($nums1, $m, $nums2, $n);
 echo "[" . implode(", ", $nums1) . "]<br>";
 
 $nums1 = [1];
-$m = 1;
-$nums2 = [];
+$m = 2;
+$nums2 = [2];
 $n = 0;
 merge($nums1, $m, $nums2, $n);
 echo "[" . implode(", ", $nums1) . "]<br>";
